@@ -40,3 +40,19 @@ console.log(typeof myFunction);
 */
 
 // typeof non premitive datatypes will always be "object" and typeof function will be "function" but it is called as "object function".
+/*
+Return type of variables in JavaScript
+1) Primitive Datatypes
+       Number => number
+       String  => string
+       Boolean  => boolean
+       null  => object
+       undefined  =>  undefined
+       Symbol  =>  symbol
+       BigInt  =>  bigint
+
+2) Non-primitive Datatypes
+       Arrays  =>  object
+       Function  =>  function
+       Object  =>  object
+*/
