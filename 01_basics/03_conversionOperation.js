@@ -33,6 +33,12 @@ console.log(typeof stringNumber);
 
 // **************************    Operations  ***********************************
 
+<<<<<<< HEAD
+let value = 3;
+let negValue = -valueconsole.log(negValue);
+
+
+=======
 let value = 3;
 let negValue = -value;
 
@@ -74,3 +80,5 @@ let gameCounter = 100;
 console.log(gameCounter);
 */
 
+
+>>>>>>> ce0f44079297b7335debe080bf77f053e1fc786d
