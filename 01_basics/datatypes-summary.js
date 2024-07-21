@@ -57,6 +57,9 @@ Return type of variables in JavaScript
        Object  =>  object
 */
 
+<<<<<<< HEAD
+
+=======
 // ************************ Memories **********************************
 
 // Stack (Primitive) , Heap (Non-Primitive)
@@ -84,3 +87,4 @@ usertwo = userone;
 
 console.log(userone.email);
 console.log(usertwo.email);
+>>>>>>> f8cdfb804f2e946b04c2406c6daffd2f99d716f1
