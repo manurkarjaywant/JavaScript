@@ -68,3 +68,31 @@ const users = [      // this is how data comes from the database. it is an array
 // console.log(Object.entries(tinderUser)); // output => [ [ 'id', '123abc' ], [ 'name', 'Sammy' ], [ 'isLoggedIn', false ] ]
 
 // console.log(tinderUser.hasOwnProperty('isLoggedIn')); // to check whether the mentioned property exists in an object.
+//---------------------------------------------------------------------------------------
+
+const course = {
+    coursename: "js",
+    price: 999,
+    courseInstructor: "Jaywant"
+}
+
+// course.courseInstructor
+/* we can access values like above.
+but when property name is lengthy we can give an alias to it as shown below.
+*/
+
+const {courseInstructor: instructor} = course // this is called destructuring
+console.log(instructor);
+//-------------------------------------------------------------------
+
+// json
+// {
+//     "name": "jaywant",
+//     "surname": "manurkar",
+//     "age": 32
+// }
+// this is how json looks. it is mandatory to mention all the keys in "".
+
+// for sample api search on google "randomuser me api"
+// to understand it better copy the api and paste it into "jason formatter" tool.
+// search it on google.
