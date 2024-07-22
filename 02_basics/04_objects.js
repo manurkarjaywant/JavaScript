@@ -93,6 +93,6 @@ console.log(instructor);
 // }
 // this is how json looks. it is mandatory to mention all the keys in "".
 
-// for sample api search on google "randomuser me api"
+// for sample api search on google "randomuser me api".
 // to understand it better copy the api and paste it into "jason formatter" tool.
 // search it on google.
