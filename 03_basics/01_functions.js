@@ -50,10 +50,30 @@ function loginUserMessage(username){
 // }
 
 // console.log(calculateCartPrice(200,400,500,2000));
+// ----------------------------------------------------------------------------
 
+// ****************** Passing object into the function **************************
 const user = {
     username: "jaywant",
     price: 199
 }
 
-function handleObject(){}
+function handleObject(anyobject){
+    // console.log(`username is ${anyobject.username} and price is ${anyobject.price}`);
+}
+
+// handleObject(user) // we can pass the object into function like this
+handleObject({         // we can pass the object into function like this also
+    username: "jaywant",
+    price: 399
+})
+
+// ********************** passing an array into the function ***************************
+
+const myNewArray = [100, 200, 300, 400]
+
+function returnSecondValue (getArray){
+    return getArray[1]
+}
+// console.log(returnSecondValue(myNewArray));// we can pass an array into function like this
+console.log(returnSecondValue([100, 200, 300, 400]));// we can pass an array into function like this also
