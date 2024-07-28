@@ -32,7 +32,7 @@ let val1;
 
 // console.log(val1);
 
-// Terniary Operator
+// **************************** Terniary Operator ***************************************
 
 // condition ? true : false
 
