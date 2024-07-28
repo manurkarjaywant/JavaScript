@@ -60,7 +60,7 @@ Return type of variables in JavaScript
 <<<<<<< HEAD
 
 =======
-// ************************ Memories **********************************
+// ************************ Memories *********************************
 
 // Stack (Primitive) , Heap (Non-Primitive)
 
