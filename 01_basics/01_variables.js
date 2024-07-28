@@ -1,25 +1,32 @@
+/*
 const accountId = 144553
-let accountEmail = "jaywant@gmail.com"
-var accountPassword = "12345"
-accountCity = "Jaipur"
-const accountId = 144553
-let accountEmail = "jaywant@gmail.com"
-var accountPassword = "12345"
-accountCity = "Jaipur"
-let accountState;
-
-<<<<<<< HEAD
-accountId = 2
-
+const accountId = 144553    // const => not allowed to re-initialize
+accountId = 56789    // const => not allowed to changle 
 console.log(accountId);
-=======
-// accountId = 2 // not allowed
+*/
 
-accountEmail = "hc@hc.com"
-accountPassword = "212121"
-accountCity = "Bangaluru"
+/*
+let accountEmail = "jaywant@twitter.com"
+let accountEmail = "jaywant@gmail.com"    // let => not allowed to re-initialize
+accountEmail = "jaywant@yahoo.com"    // let => allowed to changle 
+console.log(accountEmail);
+*/
 
-//console.log(accountId);
+/*
+var accountPassword = "12345"
+var accountPassword = "56789"    // var => allowed to re-initialize
+accountPassword = "98765"    // var => allowed to change
+console.log(accountPassword);
+*/
 
-console.table([accountId, accountEmail, accountPassword, accountCity, accountState]);
->>>>>>> b1b439f56abc7a8daa732f61b4dad81d0d1272dd
+/*
+accountCity = "Jaipur"
+console.log(accountCity);
+*/
+
+/*
+let accountState;   // undefined
+console.log(accountState);
+*/
+
+// console.table([accountId, accountEmail, accountPassword, accountCity, accountState]);
