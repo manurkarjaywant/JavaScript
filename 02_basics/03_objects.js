@@ -23,22 +23,21 @@ const JsUser = {
 // console.log(JsUser["full name"]); // when a key has white spaces we have no other option but to use it like this 
 // console.log(JsUser[mySym]); // this is how the syntax goes for symbol
 
-JsUser.email = "jaywant@chatgpt.com"
-//Object.freeze(JsUser) // this is used to freeze the object. no error will be shown but no changes will be made in the object after this point.
-JsUser.email = "jaywant@microsoft.com"
-
+// JsUser.email = "jaywant@chatgpt.com"
+// Object.freeze(JsUser) // this is used to freeze the object. no error will be shown but no changes will be made in the object after this point.
+// JsUser.email = "jaywant@microsoft.com"
 // console.log(JsUser);
 
-JsUser.greeting = function(){
-    console.log("Hello JS user");
-}
+// JsUser.greeting = function(){
+//     console.log("Hello JS user");
+// }
 
-JsUser.greetingTwo = function(){
-    console.log(`Hello JS user, ${this.name}`); // using string interpolation. if the object is same use "this" keyword
-}
+// JsUser.greetingTwo = function(){
+//     console.log(`Hello JS user, ${this.name}`); // using string interpolation. if the object is same use "this" keyword
+// }
 
-console.log(JsUser.greeting());
-console.log(JsUser.greetingTwo());
+// console.log(JsUser.greeting());
+// console.log(JsUser.greetingTwo());
 
 //-----------------------------------------------------------------
 
