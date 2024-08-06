@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Youtube</title>
+</head>
+<body style="background-color: #414141; color: #ffff;">
+    
+</body>
+<script>
+    const div = document.createElement('div')
+    console.log(div);
+    div.className = "main"
+    div.id = Math.round(Math.random() * 10 + 1)
+    div.setAttribute("title", "generated title")
+    div.style.backgroundColor = "green"
+    div.style.padding = "12px"
+    // div.innerText = "Javascript on Youtube"
+    const addText = document.createTextNode("Javascript on Youtube")
+    div.appendChild(addText)
+
+    document.body.appendChild(div)
+</script>
+<script>
+    const div2 = document.createElement('div')
+    console.log(div2)
+    div2.className = "main2"
+    div2.id = "samosa"
+    div2.setAttribute("title", "wadapaav")
+    div2.style.backgroundColor = "red"
+    div2.style.padding = "20px"
+    const addText2 = document.createTextNode("wadapaav chutney")
+    div2.appendChild(addText2)
+    document.body.appendChild(div2)
+</script>
+<script>
+    const h1 = document.createElement('h1')
+    h1.id = 'burger'
+    h1.className = 'AlooTikki'
+    h1.setAttribute("title", "Ketchup")
+    h1.style.backgroundColor = "orange"
+    h1.style.padding = "30px"
+    // h1.innerHTML = "kya be.. Burger Khayega?"
+    h1.innerText = "kya be.. Burger Khayega?"
+    document.body.appendChild(h1)
+</script>
+</html>
