@@ -12,8 +12,19 @@
 </head>
 <body class="bg-black">
     <div>
-        <h1 id="title" class="heading">DOM learning on youtube</h1>
+        <h1 id="title" class="heading">DOM learning on youtube <span style="display : none">test text</span></h1>
+        <h2>Lorem ipsum dolor sit.</h2>
+        <h2>Lorem ipsum dolor sit.</h2>
+        <h2>Lorem ipsum dolor sit.</h2>
         <p>Lorem ipsum dolor sit amet.</p>
+        <input type="password" name="" id="">
+
+        <ul>
+            <li class="list-item">one</li>
+            <li class="list-item">two</li>
+            <li class="list-item">three</li>
+            <li class="list-item">three</li>
+        </ul>
     </div>
 </body>
 </html>
@@ -33,4 +44,29 @@ getElementByClassName
 getElementByName
 getElementByTagName
 etc etc
+-->
+
+<!-- 
+innerHTML   => to get HTML also if anything is written inside the text. it supports content as well as HTML tags 
+innerText   => to get visible content only. it supports only content which is made visible. no HTML tags are supported.
+textContent => to get visible as well as hidden content. it supports only content which is visible and hidden. no HTML tags are supported.
+-->
+
+<!-- 
+document.querySelector('#id')
+document.querySelector('.class')
+document.querySelector('input[type="password"]')
+document.querySelector('p:first-child')
+document.querySelectorAll('')
+-->
+
+<!-- 
+HTML collection doesn't have forEach() method. Thats why we have to convert it to an Array.
+To convert HTML collection into array use method
+Array.from(HTML collection)
+after converting we can use forEach() method
+-->
+
+<!-- 
+Node list does have forEach() method thats why we can use it without coverting it into an Array.
 -->
