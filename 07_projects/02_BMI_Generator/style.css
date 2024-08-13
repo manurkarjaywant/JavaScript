@@ -1,0 +1,18 @@
+body{
+    background-color: grey;
+}
+#underweight{
+    background-color: red;
+    color: yellow;
+}
+#normal{
+    background-color: green;
+    color: yellow;
+}
+#overweight{
+    background-color: red;
+    color: yellow;
+}
+#results{
+    color: white;
+}
