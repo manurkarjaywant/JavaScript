@@ -1,0 +1,55 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+}
+
+#wrapper{
+    text-align: center;
+    width: 450px;
+    height: 500px;
+    background-color: #212121;
+}
+#guessField{
+    width: 200px;
+    height: 25px;
+    border-radius: 15px;
+    border-color: rgb(74, 111, 190);
+    border-width: 5px;
+    border-style: solid;
+    background-color: cyan;
+    text-align: center;
+    font-size: 20px;
+}
+#guessSubmit {
+    margin-top: 20px;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: orange;
+    font-weight: 800;
+}
+#guess{
+    font-size: 40px;
+    margin-top: 120px;
+    color: #fff;
+}
+
+#lowOrHigh{
+    font-size: 15px;
+}
+
+#newGame{
+    width: 250px;
+    height: 35px;
+    border-radius: 10px;
+    background-color: orange;
+    color: black;
+    margin-left: 100px;
+    margin-bottom: 10px;
+}
+
