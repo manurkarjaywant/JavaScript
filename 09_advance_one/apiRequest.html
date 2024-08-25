@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>api</title>
+    <style>
+        body{
+            justify-content: center;
+            text-align: center;
+            display: inline-block;
+        }
+        #inner{
+            width: 300px;
+        }
+    </style>
+</head>
+<body style="background-color: #212121;">
+    <div id="outer">
+        <div id="inner" style="background-color: aqua; color: black;">
+            <p id="followers"></p>
+            <p id="following"></p>
+            <p id="public_repos"></p>
+            <p id="public_gists"></p>
+        </div>
+        <div>
+            
+        </div>
+    </div>
+    
+</body>
+<script>
+    const requestUrl = 'https://api.github.com/users/hiteshchaudhary'
+    const xhr = new XMLHttpRequest()
+    xhr.open('GET',requestUrl)
+    xhr.onreadystatechange = function (){
+        // console.log(xhr.readyState);
+        if (xhr.readyState === 4) {
+            let data = this.responseText    // this will not work as data comes in string format. thats why first
+                                            // convert it to JSON object and then use it to get the data from it
+            // console.log(typeof data);
+            data = JSON.parse(this.responseText)
+            // console.log(typeof data);
+            // console.log(data.followers);
+            document.getElementById('followers').innerHTML = ` Followers: ${data.followers}`;        
+            document.getElementById('following').innerHTML = ` Following: ${data.following}`;        
+            document.getElementById('public_repos').innerHTML = ` Public Repos: ${data.public_repos}`;         
+            document.getElementById('public_gists').innerHTML = ` Public Gists: ${data.public_gists}`;      
+        }
+    }
+    xhr.send()
+</script>
+</html>
